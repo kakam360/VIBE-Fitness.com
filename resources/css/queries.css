@@ -1,0 +1,43 @@
+/* Big tablet to 1200px: widths smaller than the 1140px row */
+@media only screen and (max-width: 1200px) {
+  .hero {
+    width: 100%;
+    padding: 0 2%;
+  }
+  .hero-text-box h1 { font-size: 175%; }
+}
+
+/* Small tablet to big table: from 768px - 1023px */
+@media only screen and (max-width: 1023px) {
+  body { font-size: 18px; }
+  section { padding: 60px 0; }
+  .hero { font-size: 150%; }
+}
+
+/* Small phones to small tablets: from 481px - 767px */
+@media only screen and (max-width: 767px) {
+  body { font-size: 16px; }
+  h2 { font-size: 150%; }
+  .hero {
+    font-size: 125%;
+    margin-left: 0%;
+    font-weight: 500;
+  }
+
+  .card { margin-top: 30px; }
+
+  .classes { padding: 0; }
+
+  #join-btn { 
+    display: block; 
+    width: 100%;
+  }
+
+  footer { text-align: center; }
+  footer #footer-design { text-align: center; }
+}
+
+/* Small phones: from 0 - 480px */
+@media only screen and (max-width: 480px) {
+  
+}
